@@ -1,0 +1,3 @@
+g++ -Wall -I/usr/local/include -c -DHAVE_INLINE non_obj_propagator.cpp
+g++ -L/usr/local/lib non_obj_propagator.o -lgsl -lgslcblas -lm -o non_obj_propagator
+
